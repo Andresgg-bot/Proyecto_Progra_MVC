@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "81BIS+PoVXThYF1ff9LzD7NZirIDrNB6bWod6oooybb+uFKrvx/xA+EvY7fIvwlisUs5FL1ouZuH8bdkJzeU3w==",
+  "dgSpecHash": "il89NqVhZ+PRfiLcB1kYGkPXQTYtMd7MvfWeT8QPzi7/D6vH4pBfXsDpydxrBvkyQFZo+vZuDh2tuaO61Yj5LQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Desktop\\Progra Avanzada Web\\Proyecto\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.csproj",
+  "projectFilePath": "C:\\Users\\andre\\Source\\Repos\\Andresgg-bot\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.17\\microsoft.aspnetcore.mvc.razor.extensions.5.0.17.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.17\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.17.nupkg.sha512",

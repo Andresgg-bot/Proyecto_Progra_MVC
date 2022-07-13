@@ -741,11 +741,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Desktop\\Progra Avanzada Web\\Proyecto\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Source\\Repos\\Andresgg-bot\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.csproj",
       "projectName": "Proyecto_Progra_MVC",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Desktop\\Progra Avanzada Web\\Proyecto\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.csproj",
+      "projectPath": "C:\\Users\\andre\\Source\\Repos\\Andresgg-bot\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\OneDrive\\Desktop\\Progra Avanzada Web\\Proyecto\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC\\obj\\",
+      "outputPath": "C:\\Users\\andre\\Source\\Repos\\Andresgg-bot\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -797,7 +797,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
