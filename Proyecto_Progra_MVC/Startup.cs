@@ -1,9 +1,19 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Proyecto_Progra_MVC.Components;
+using Proyecto_Progra_MVC.Contracts;
+using Proyecto_Progra_MVC.DataAccess.Data;
+using Proyecto_Progra_MVC.DataAccess.Repository.UnityOfWork;
+using Proyecto_Progra_MVC.Models.ConfigurationModels;
+using Proyecto_Progra_MVC.Models.DataModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +33,44 @@ namespace Proyecto_Progra_MVC
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+
+            services.AddAuthentication(options =>
+            {
+                options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            }).AddCookie(options =>
+            {
+                options.LoginPath = "/accounts/login";
+                options.LogoutPath = "/accounts/logout";
+                options.AccessDeniedPath = "/accounts/accessdenied";
+                options.Cookie.SameSite = SameSiteMode.Lax;
+            });
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequiredLength = 8;
+                options.Password.RequireNonAlphanumeric = true;
+                options.Password.RequireDigit = true;
+                options.Password.RequireUppercase = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequiredUniqueChars = 1;
+            });
+
+            services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+            services.AddDbContext<ApplicationDbContext>
+                (options => options.UseSqlServer(Configuration.GetConnectionString("ConnectionString")))
+                    .AddUnitOfWork<ApplicationDbContext>();
+
+            services.AddIdentity<User, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>().AddTokenProvider<DataProtectorTokenProvider<User>>
+                    (TokenOptions.DefaultProvider);
+
+            services.AddScoped<IApplicationDbContext>
+                (options => options.GetService<ApplicationDbContext>());
+
+            services.Configure<RecaptchaConfiguration>(Configuration.GetSection("RecaptchaConfiguration"));
+
+            services.AddSingleton<IRecaptchaValidator, RecaptchaValidator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,6 +90,13 @@ namespace Proyecto_Progra_MVC
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseCookiePolicy(new CookiePolicyOptions
+            {
+                MinimumSameSitePolicy = SameSiteMode.Lax
+            });
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

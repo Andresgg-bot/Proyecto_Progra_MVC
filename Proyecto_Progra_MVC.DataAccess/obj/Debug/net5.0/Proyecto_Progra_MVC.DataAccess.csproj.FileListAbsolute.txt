@@ -1,0 +1,15 @@
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\bin\Debug\net5.0\Proyecto_Progra_MVC.DataAccess.deps.json
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\bin\Debug\net5.0\Proyecto_Progra_MVC.DataAccess.dll
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\bin\Debug\net5.0\Proyecto_Progra_MVC.DataAccess.pdb
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\obj\Debug\net5.0\Proyecto_Progra_MVC.DataAccess.csproj.AssemblyReference.cache
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\obj\Debug\net5.0\Proyecto_Progra_MVC.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\obj\Debug\net5.0\Proyecto_Progra_MVC.DataAccess.AssemblyInfoInputs.cache
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\obj\Debug\net5.0\Proyecto_Progra_MVC.DataAccess.AssemblyInfo.cs
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\obj\Debug\net5.0\Proyecto_Progra_MVC.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\obj\Debug\net5.0\Proyecto_Progra_MVC.DataAccess.dll
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\obj\Debug\net5.0\refint\Proyecto_Progra_MVC.DataAccess.dll
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\obj\Debug\net5.0\Proyecto_Progra_MVC.DataAccess.pdb
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\obj\Debug\net5.0\ref\Proyecto_Progra_MVC.DataAccess.dll
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\bin\Debug\net5.0\Proyecto_Progra_MVC.Models.dll
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\bin\Debug\net5.0\Proyecto_Progra_MVC.Models.pdb
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC.DataAccess\obj\Debug\net5.0\Proyecto_Progra_MVC.DataAccess.csproj.CopyComplete
