@@ -745,3 +745,13 @@ C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC
 C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\obj\Debug\net5.0\Proyecto_Progra_MVC.pdb
 C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\obj\Debug\net5.0\Proyecto_Progra_MVC.genruntimeconfig.cache
 C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\obj\Debug\net5.0\ref\Proyecto_Progra_MVC.dll
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\bin\Debug\net5.0\Proyecto_Progra_MVC.Models.dll
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\bin\Debug\net5.0\Proyecto_Progra_MVC.Models.pdb
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\obj\Debug\net5.0\Razor\Views\Auth\Login.cshtml.g.cs
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\obj\Debug\net5.0\Razor\Views\Auth\Register.cshtml.g.cs
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\obj\Debug\net5.0\Razor\Views\Auth\ForgetPassword.cshtml.g.cs
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\obj\Debug\net5.0\Razor\Views\Auth\ForgetPasswordConfirmation.cshtml.g.cs
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\obj\Debug\net5.0\Razor\Views\Auth\ResetPassword.cshtml.g.cs
+C:\Users\andre\OneDrive\Desktop\Progra Avanzada Web\Proyecto\Proyecto_Progra_MVC\Proyecto_Progra_MVC\obj\Debug\net5.0\Razor\Views\Auth\ResetPasswordConfirmation.cshtml.g.cs

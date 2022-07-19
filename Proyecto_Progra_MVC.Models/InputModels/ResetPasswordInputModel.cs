@@ -5,13 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Proyecto_Progra_MVC.Models.ViewModels
+namespace Proyecto_Progra_MVC.Models.InputModels
 {
-    public class Register
+    public class ResetPasswordInputModel
     {
         [Required]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+
+        [Required]
+        public string Token { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -19,7 +22,7 @@ namespace Proyecto_Progra_MVC.Models.ViewModels
 
         [Required]
         [DataType(DataType.Password)]
-        [Compare(nameof(Password), ErrorMessage = "Password and confirmation password didn't match")]
+        [Display(Name = "Password Confirmation")]
         public string ConfirmPassword { get; set; }
 
     }

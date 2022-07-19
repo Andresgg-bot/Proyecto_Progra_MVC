@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Proyecto_Progra_MVC.Models.DataModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,12 +9,13 @@ using System.Threading.Tasks;
 
 namespace Proyecto_Progra_MVC.DataAccess.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext, IApplicationDbContext
     {
-
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)
         {
                
         }
+        public DbSet<User> User { get; set; }
+
     }
 }
