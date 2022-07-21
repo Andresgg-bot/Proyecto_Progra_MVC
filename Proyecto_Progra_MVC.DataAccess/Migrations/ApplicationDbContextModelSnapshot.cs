@@ -228,6 +228,9 @@ namespace Proyecto_Progra_MVC.DataAccess.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
+                    b.Property<int>("Genero")
+                        .HasColumnType("int");
+
                     b.Property<string>("Lastname")
                         .HasColumnType("nvarchar(max)");
 

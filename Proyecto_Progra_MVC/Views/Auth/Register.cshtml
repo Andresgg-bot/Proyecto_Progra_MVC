@@ -1,4 +1,5 @@
-﻿@model RegisterInputModel
+﻿@using Proyecto_Progra_MVC.Models.Enums
+@model RegisterInputModel
 
 <style>
     .header {
@@ -50,6 +51,17 @@
                 <label asp-for="Age" class="form-text"></label>
                 <input asp-for="Age" class="form-control" placeholder="Age" />
                 <span asp-validation-for="Age" class="text-danger"></span>
+
+                <label asp-for="Genero" class="form-text"></label>
+                @foreach (var genero in Enum.GetValues(typeof(Generos)))
+                {
+                    <label class="form-check form-check-inline">
+                        <input asp-for="Genero" type="radio" value="@((int)genero)"
+                            class="form-check form-check-input" aria-describedby="ayudaGenero" />
+                        @Enum.GetName(typeof(Generos), genero)
+                    </label>
+                }
+                <span asp-validation-for="Genero" class="text-danger"></span>
 
                 <label asp-for="PhysicalActivity" class="form-text"></label>
                 <input asp-for="PhysicalActivity" class="form-control" placeholder="Physical Activity" />

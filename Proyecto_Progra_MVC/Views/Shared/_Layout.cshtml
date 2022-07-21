@@ -45,6 +45,12 @@
                         else
                         {
                             <li class="nav-item text-right">
+                                <a href="/user/profile/@User.Identity.Name" class="nav-link text-dark btn border-0" style="cursor:pointer">
+                                    Profile
+                                </a>
+                            </li>
+
+                            <li class="nav-item text-right">
                                 <form asp-controller="Auth" asp-action="Logout" method="post">
                                     <button type="submit" class="nav-link text-dark btn border-0">
                                         Logout @User.Identity.Name

@@ -53,6 +53,7 @@ namespace Proyecto_Progra_MVC.Controllers
                     PhysicalActivity = model.PhysicalActivity,
                     UserName = model.Email,
                     Email = model.Email,
+                    Genero = model.Genero
                 };
                 var result = await _userManager.CreateAsync(user, password: model.Password);
 
@@ -61,7 +62,7 @@ namespace Proyecto_Progra_MVC.Controllers
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("Index", "Home");
                 }
-                foreach(var error in result.Errors)
+                foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
@@ -132,7 +133,7 @@ namespace Proyecto_Progra_MVC.Controllers
         {
             var user = await _userManager.FindByEmailAsync(email);
 
-            if(user == null)
+            if (user == null)
             {
                 return Json(true);
             }
@@ -159,7 +160,7 @@ namespace Proyecto_Progra_MVC.Controllers
 
                 var user = await _userManager.FindByEmailAsync(email);
 
-                if(user != null)
+                if (user != null)
                 {
                     var token = await _userManager.GeneratePasswordResetTokenAsync(user);
 
@@ -189,7 +190,7 @@ namespace Proyecto_Progra_MVC.Controllers
         [AllowAnonymous]
         public IActionResult ResetPassword(string email, string token)
         {
-            if(string.IsNullOrEmpty(email) || string.IsNullOrEmpty(token))
+            if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(token))
             {
                 ModelState.AddModelError(string.Empty, "Email and token are required");
             }
@@ -205,7 +206,7 @@ namespace Proyecto_Progra_MVC.Controllers
             {
                 var user = await _userManager.FindByEmailAsync(model.Email);
 
-                if(user == null)
+                if (user == null)
                 {
                     RedirectToAction("Index", "Home");
                 }
