@@ -8962,19 +8962,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kenda\\.nuget\\packages\\": {}
+    "C:\\Users\\Frey\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fidelitas\\2022 - Q2\\Programación Avanzada en Web\\Proyecto\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.csproj",
+      "projectUniqueName": "C:\\Users\\Frey\\Desktop\\U Ing. Sistemas\\Progra Avanzada Web\\PROYECTO\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.csproj",
       "projectName": "Proyecto_Progra_MVC",
-      "projectPath": "D:\\Fidelitas\\2022 - Q2\\Programación Avanzada en Web\\Proyecto\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.csproj",
-      "packagesPath": "C:\\Users\\kenda\\.nuget\\packages\\",
-      "outputPath": "D:\\Fidelitas\\2022 - Q2\\Programación Avanzada en Web\\Proyecto\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC\\obj\\",
+      "projectPath": "C:\\Users\\Frey\\Desktop\\U Ing. Sistemas\\Progra Avanzada Web\\PROYECTO\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.csproj",
+      "packagesPath": "C:\\Users\\Frey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Frey\\Desktop\\U Ing. Sistemas\\Progra Avanzada Web\\PROYECTO\\Proyecto_Progra_MVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kenda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Frey\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8988,11 +8988,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Fidelitas\\2022 - Q2\\Programación Avanzada en Web\\Proyecto\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.DataAccess\\Proyecto_Progra_MVC.DataAccess.csproj": {
-              "projectPath": "D:\\Fidelitas\\2022 - Q2\\Programación Avanzada en Web\\Proyecto\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.DataAccess\\Proyecto_Progra_MVC.DataAccess.csproj"
+            "C:\\Users\\Frey\\Desktop\\U Ing. Sistemas\\Progra Avanzada Web\\PROYECTO\\Proyecto_Progra_MVC.DataAccess\\Proyecto_Progra_MVC.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Frey\\Desktop\\U Ing. Sistemas\\Progra Avanzada Web\\PROYECTO\\Proyecto_Progra_MVC.DataAccess\\Proyecto_Progra_MVC.DataAccess.csproj"
             },
-            "D:\\Fidelitas\\2022 - Q2\\Programación Avanzada en Web\\Proyecto\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.Models\\Proyecto_Progra_MVC.Models.csproj": {
-              "projectPath": "D:\\Fidelitas\\2022 - Q2\\Programación Avanzada en Web\\Proyecto\\Proyecto_Progra_MVC\\Proyecto_Progra_MVC.Models\\Proyecto_Progra_MVC.Models.csproj"
+            "C:\\Users\\Frey\\Desktop\\U Ing. Sistemas\\Progra Avanzada Web\\PROYECTO\\Proyecto_Progra_MVC.Models\\Proyecto_Progra_MVC.Models.csproj": {
+              "projectPath": "C:\\Users\\Frey\\Desktop\\U Ing. Sistemas\\Progra Avanzada Web\\PROYECTO\\Proyecto_Progra_MVC.Models\\Proyecto_Progra_MVC.Models.csproj"
             }
           }
         }
@@ -9044,7 +9044,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
